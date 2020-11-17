@@ -70,3 +70,23 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px)  {
+
+  main  {
+    width: 100%;
+    display: block;
+    justify-content: center;
+  }
+
+  .blog  {
+    width: 90%;
+    margin: 0 5%;
+    margin-bottom: 20px;
+  }
+
+  .blog :last-child  {
+    margin-bottom: 0;
+  }
+
+}
